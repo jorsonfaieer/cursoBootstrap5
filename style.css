@@ -198,11 +198,71 @@ h1{
     margin: 10px;
 }
 
+/* Seccion Testimonios */
+.testimonios{
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel{
+    max-width: 800px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonio-img{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto{
+    max-width: 70%;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonio-info{
+    text-align: center;
+    font-weight: bold;
+}
+
+.testimonio-info p{
+    margin-bottom: 0;
+}
+
+.testimonio-info .cliente{
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo{
+    font-size: 0.9rem;
+    color: #584e4e;
+}
+
 /* Adaptable (responsivo) */
 
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .testimonio-img{
+        height: 100px;
+        width: 100px;
     }
 }
 
