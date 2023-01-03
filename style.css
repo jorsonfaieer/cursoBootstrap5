@@ -32,8 +32,26 @@ h1{
     font-family: 'Rubik Dirt', cursive;
 }
 
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
 .seccion-texto{
     font-size: 1.2rem;
+}
+
+.btn-info{
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+.texto-negro{
+    color: #000;
+}
+
+.texto-blanco{
+    color: #fff;
 }
 
 /* Barra de navegacion */
@@ -125,6 +143,59 @@ h1{
 
 .badge{
     margin: 5px;
+}
+
+/* Seccion Proyectos */
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto{
+    position: relative;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.iconos-contenedor i{
+    color: #000;
+    font-size: 4rem;
+    margin: 10px;
 }
 
 /* Adaptable (responsivo) */
